@@ -1,0 +1,59 @@
+body {
+	width: 900px;
+	margin: 0 auto;
+}
+
+
+
+/* main {
+	margin: 20px auto auto 20px;
+} */
+
+.battery {
+	width: 400px;
+	height: 200px;
+	margin: 20px auto auto auto;
+	border: 2px solid;
+	border-color:#767676;
+	background-color: blueviolet;
+}
+
+.battery_hot {
+	
+	animation-duration: 3s;
+	animation-name: getting_hot;
+	animation-fill-mode: forwards;
+}
+  
+  @keyframes getting_hot {
+	from {
+		background-color: blueviolet;
+	}
+  
+	to {
+		background-color: rgb(235, 15, 44);
+	}
+  }
+
+
+.battery_cold {
+	
+	animation-duration: 3s;
+	animation-name: getting_cold;
+	animation-fill-mode: forwards;
+}
+  
+  @keyframes getting_cold {
+	from {
+		background-color: rgb(235, 15, 44);
+	}
+  
+	to {
+		background-color: blueviolet;
+	}
+  }
+
+
+  /* .btn {
+
+  } */
